@@ -1,19 +1,7 @@
-import express from "express";
-import cors from "cors";
+import app from "./app.ts"
 
-const app = express();
-
-app.use(cors());
-app.use(express.json());
-
-const PORT = 3000;
-
-app.get("/", (_req, res) => {
-  res.json({
-    mensaje: "Backend de QuindioEventos funcionando 🚀"
-  });
-});
+const PORT = 3000
 
 app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
-});
+  console.log(`Servidor corriendo en http://localhost:${PORT}`)
+})
