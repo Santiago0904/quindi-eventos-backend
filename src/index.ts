@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import eventoRoutes from "./routes/evento.routes";
+import authRoutes from "./routes/auth.routes";
 
 const app = express();
 
@@ -17,6 +18,7 @@ app.get("/", (_req, res) => {
 
 // Routes
 app.use("/events", eventoRoutes);
+app.use("/api/auth", authRoutes);
 
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`)
