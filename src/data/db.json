@@ -1,0 +1,25 @@
+{
+  "usuarios": [
+    {
+      "id": "e5cb7333-f75d-4a9b-8de0-c0be33b838ef",
+      "nombre": "Santiago",
+      "correo": "santiago@gmail.com",
+      "contrasena": "1090274491",
+      "rol": "visitante"
+    },
+    {
+      "id": "15e3636c-b288-4402-94c8-d57c38b3eac5",
+      "nombre": "Santiago",
+      "correo": "santiago12@gmail.com",
+      "contrasena": "1090274491",
+      "rol": "visitante"
+    },
+    {
+      "id": "7e372fa6-5703-4ad2-b05b-df4421132090",
+      "nombre": "nicolas",
+      "correo": "nicolas@gmail.com",
+      "contrasena": "1090274491",
+      "rol": "visitante"
+    }
+  ]
+}
