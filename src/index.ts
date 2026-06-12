@@ -15,11 +15,15 @@ const app = express();
 app.use(
   cors({
     origin: [
-    "http://localhost:5173",
-    "https://quindi-eventos.vercel.app"
-  ],
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization", "x-user-id"],
+      "http://localhost:5173",
+      "https://quindi-eventos-frontend.vercel.app"
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: [
+      "Content-Type",
+      "Authorization",
+      "x-user-id"
+    ]
   })
 );
 
