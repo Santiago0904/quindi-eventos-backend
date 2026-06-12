@@ -8,18 +8,65 @@
       "rol": "visitante"
     },
     {
-      "id": "15e3636c-b288-4402-94c8-d57c38b3eac5",
-      "nombre": "Santiago",
-      "correo": "santiago12@gmail.com",
-      "contrasena": "1090274491",
-      "rol": "visitante"
-    },
-    {
       "id": "7e372fa6-5703-4ad2-b05b-df4421132090",
       "nombre": "nicolas",
       "correo": "nicolas@gmail.com",
       "contrasena": "1090274491",
+      "rol": "administrador"
+    },
+    {
+      "id": "c5c73b7d-5272-4cda-92e0-1e335ab036f8",
+      "nombre": "vannesa",
+      "correo": "vannesa@gmail.com",
+      "contrasena": "123456789",
       "rol": "visitante"
+    }
+  ],
+  "resenas": [
+    {
+      "id": "86a8e8d8-c249-466d-82de-78c5c8a73c2e",
+      "eventId": "1",
+      "userId": "7e372fa6-5703-4ad2-b05b-df4421132090",
+      "userName": "nicolas",
+      "rating": 5,
+      "comment": "muy buen evento",
+      "createdAt": "2026-06-11T04:50:17.742Z"
+    },
+    {
+      "id": "fee84a7f-f6f7-4a84-9432-80a543b07fe8",
+      "eventId": "10",
+      "userId": "c5c73b7d-5272-4cda-92e0-1e335ab036f8",
+      "userName": "vannesa",
+      "rating": 4,
+      "comment": "muy buena experiencia",
+      "createdAt": "2026-06-11T05:07:13.932Z"
+    },
+    {
+      "id": "c88e00f3-01cc-4cc1-bcb7-bd51e4b8269b",
+      "eventId": "1",
+      "userId": "7e372fa6-5703-4ad2-b05b-df4421132090",
+      "userName": "nicolas",
+      "rating": 5,
+      "comment": "muy buen evento",
+      "createdAt": "2026-06-11T17:49:42.736Z"
+    },
+    {
+      "id": "98871bcd-24d7-47d9-8a3a-9f8b173a775d",
+      "eventId": "1",
+      "userId": "c5c73b7d-5272-4cda-92e0-1e335ab036f8",
+      "userName": "vannesa",
+      "rating": 5,
+      "comment": "jhhjhhuhuhuh",
+      "createdAt": "2026-06-11T21:40:08.841Z"
+    },
+    {
+      "id": "e5b79d63-a367-46ed-8350-2ebacaa6c2c1",
+      "eventId": "1",
+      "userId": "c5c73b7d-5272-4cda-92e0-1e335ab036f8",
+      "userName": "vannesa",
+      "rating": 4,
+      "comment": "gfgfgfg",
+      "createdAt": "2026-06-11T21:46:45.906Z"
     }
   ]
 }
